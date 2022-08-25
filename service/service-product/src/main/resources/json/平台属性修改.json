@@ -1,0 +1,21 @@
+{
+  "id": 13,
+  "attrName": "出厂时间",
+  "category1Id": 0,
+  "category2Id": 0,
+  "category3Id": 0,
+  "attrValueList": [
+    {
+      "id": 62,
+      "valueName": "2019以前",
+      "attrId": 13
+    },
+    {
+      "id": 63,
+      "valueName": "2022",
+      "attrId": 13
+    }
+  ],
+  "categoryId": 13,
+  "categoryLevel": 2
+}

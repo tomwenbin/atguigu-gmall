@@ -17,4 +17,9 @@ public interface BaseAttrInfoService extends IService<BaseAttrInfo> {
     * 查询平台属性的方法
     * */
     List<BaseAttrInfo> getAttrInfoAndValueByCategoryId(long category1Id, long category2Id, long category3Id);
+
+    /*
+    * 增加平台属性的
+    * */
+    void saveAttrInfo(BaseAttrInfo baseAttrInfo);
 }
