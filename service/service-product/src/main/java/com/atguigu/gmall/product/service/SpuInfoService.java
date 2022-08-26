@@ -11,4 +11,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
 */
 public interface SpuInfoService extends IService<SpuInfo> {
 
+    /*
+    * 新增spu 的方法
+    *
+    * */
+    void saveSpuInfo(SpuInfo spuInfo);
 }
