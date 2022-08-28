@@ -2,6 +2,7 @@ package com.atguigu.gmall.product.service;
 
 
 import com.atguigu.gmall.model.product.BaseCategory2;
+import com.atguigu.gmall.model.to.CategoryTreeTo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;
@@ -19,5 +20,10 @@ public interface BaseCategory2Service extends IService<BaseCategory2> {
      *  方法注释的用法
      */
     List<BaseCategory2> getCategory1Child(long category1Id);
+
+    /*
+    *远程调用的  查村所有的分类
+    * */
+    List<CategoryTreeTo> getAllCategoryWithTree();
 
 }
