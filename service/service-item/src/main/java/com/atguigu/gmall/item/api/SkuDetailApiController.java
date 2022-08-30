@@ -21,8 +21,8 @@ public class SkuDetailApiController {
 
     @Resource
     SkuDetailService skuDetailService;
-    @GetMapping("skudetail/{skuId}")
-    public Result<SkuDetailTo> getSkuDetail(@PathVariable Long skuId){
+    @GetMapping("/skudetail/{skuId}")
+    public Result<SkuDetailTo> getSkuDetail(@PathVariable("skuId") Long skuId){
          SkuDetailTo skuDetai = skuDetailService.getSkuDetail(skuId);
 //        一些信息
         return Result.ok(skuDetai);

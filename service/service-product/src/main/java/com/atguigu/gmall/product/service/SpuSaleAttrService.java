@@ -13,8 +13,17 @@ import java.util.List;
 */
 public interface SpuSaleAttrService extends IService<SpuSaleAttr> {
 
+
     /*
     * 新增sku时间查询spu的销售属性*/
 
     List<SpuSaleAttr> getSpuSaleAttrBySpuId(Long spuId);
+
+    List<SpuSaleAttr> getSaleAttrAndValueMarkSku(Long spuId, Long skuId);
+    /**
+     * 查询所有sku的销售属性值组合可能
+     * @param spuId
+     * @return
+     */
+    String getAllSkuSaleAttrValueJson(Long spuId);
 }

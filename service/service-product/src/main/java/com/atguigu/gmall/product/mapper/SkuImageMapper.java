@@ -16,8 +16,6 @@ import java.util.List;
 public interface SkuImageMapper extends BaseMapper<SkuImage> {
 
 
-
-    List<SkuImage> getgetSkuImage22(@Param("skuId") Long skuId);
 }
 
 
